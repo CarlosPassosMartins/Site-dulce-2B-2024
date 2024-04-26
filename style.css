@@ -82,6 +82,7 @@ body {
 
 .rodape{
     background-color: black;
+    color: white;
     text-align: center;
 }
 
@@ -92,9 +93,7 @@ body {
 }
 
 .rodape-div{
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.rodape-texto{
-    color: white;
 }
