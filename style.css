@@ -39,11 +39,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 100px;
+    padding: 24px 0;
 }
 
 .escola-div-conteudo{
     width: 35%;
+    padding: 30px;
 }
 
 
