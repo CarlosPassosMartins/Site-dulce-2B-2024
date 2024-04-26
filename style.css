@@ -51,6 +51,7 @@ body {
 
 
 .escola-titulo{
+    justify-content: center;
     padding: 24px 0;
 }
 
