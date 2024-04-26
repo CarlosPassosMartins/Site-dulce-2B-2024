@@ -47,6 +47,9 @@ body {
 .escola-div-conteudo{
     width: 35%;
     padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
