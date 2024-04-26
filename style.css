@@ -91,9 +91,8 @@ body {
 }
 
 .rodape-imagem{
-    height: 120px;
+    height: 100px;
+    padding: 6px 40px;
     width: 100px;
-    padding: 6px 30px;
-   
 }
 
