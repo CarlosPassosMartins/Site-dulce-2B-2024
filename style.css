@@ -87,8 +87,8 @@ body {
 }
 
 .rodape-imagem{
-    height: 60px;
-    padding: 12px 0;
+    height: 120px;
+    padding: 24px 0;
    
 }
 
@@ -96,4 +96,5 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px 0;
 }
