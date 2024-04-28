@@ -93,11 +93,6 @@ body {
 }
 
 .rodape-imagem{
-    height: 120px;
     padding: 6px 20px;
-    width: 115px;
+    width: 35%;
 }
-.rodape-texto{
-    padding: 6px 20px;
-}
-
