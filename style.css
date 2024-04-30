@@ -55,7 +55,7 @@ body {
 }
 
 .prof_dulce{
-    background-image: linear-gradient(#e62424,#8F0E0A);
+    background-color: #e62424;
     color:white;
     display: flex;
     justify-content: center;
