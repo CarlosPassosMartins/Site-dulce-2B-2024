@@ -54,6 +54,25 @@ body {
     padding: 24px 25%;
 }
 
+.prof_dulce{
+    background-image: linear-gradient(#8F0E0A,#e62424);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.prof_dulce-div{
+    width: 35%;
+    padding: 15px;
+}
+
+.prof_dulce-titulo{
+    padding: 24px 25%;
+}
+
 #estudante{
     padding: 24px 0;
 }
