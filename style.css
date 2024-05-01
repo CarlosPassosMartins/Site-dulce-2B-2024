@@ -54,34 +54,31 @@ body {
     padding: 24px 25%;
 }
 
-.prof_dulce{
-    background-color: #e62424;
+.PDulce-imagem{
+    width: 35%;
+    padding: 15px;
+}
+
+.PDulce{
+    background-image: linear-gradient(#8F0E0A,#e62424);
     color:white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
-
 }
 
-.prof_dulce-div{
+.PDulce-div-conteudo{
     width: 35%;
     padding: 15px;
 }
 
-.prof_dulce-img{
-    width: 25%;
-    padding: 15px;
-}
 
-.prof_dulce-titulo{
+.PDulce-titulo{
     padding: 24px 25%;
 }
 
-.prof_dulce-texto{
-    width: 35%;
-    padding: 15px;
-}
+
 
 #estudante{
     padding: 24px 0;
