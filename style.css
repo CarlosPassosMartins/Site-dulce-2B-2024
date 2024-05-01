@@ -63,14 +63,12 @@ body {
     padding: 24px;
 }
 
-.meio-titulo a{
-    width: 70px;
-    height: 70px;
+.meio-titulo {
     padding: 2px 25%;
 
 }
 
-.meio-texto{
+.meio-texto a{
     text-decoration: none; 
     color: white;
 }
