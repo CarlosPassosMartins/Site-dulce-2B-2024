@@ -63,8 +63,9 @@ body {
     padding: 24px;
 }
 
-.meio-titulo{
+.meio-titulo a{
     width: 70px;
+    height: 70px;
     padding: 2px 25%;
 
 }
