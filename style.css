@@ -78,6 +78,10 @@ body {
     padding: 24px 25%;
 }
 
+.prof_dulce-texto{
+    display: flex;
+}
+
 #estudante{
     padding: 24px 0;
 }
