@@ -9,7 +9,7 @@ body {
     background-color: #8F0E0A;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 24px 100px;
 }
