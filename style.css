@@ -60,7 +60,7 @@ body {
 }
 
 .PDulce{
-    background-image: linear-gradient(#8F0E0A,#e62424);
+    background-color: #e62424;
     color:white;
     display: flex;
     justify-content: center;
