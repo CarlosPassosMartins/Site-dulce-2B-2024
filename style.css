@@ -11,12 +11,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
-    top: 0;
+    padding: 24px 100px;
 }
 
 .cabecalho-imagem{
-    width: 5%;
+    width: 8%;
 
 }
 
@@ -79,7 +78,7 @@ body {
     padding: 15px;
 }
 
-.PDulce{
+#Prof-Dulce{
     background-color: #e62424;
     color:white;
     display: flex;
