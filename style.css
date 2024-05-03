@@ -54,7 +54,7 @@ body {
     padding: 24px 25%;
 }
 
-.meio{
+#map{
     background-color: #e62424;
     color:white;
     display: flex;
