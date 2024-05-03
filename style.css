@@ -60,7 +60,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 24px 0;
+}
+.map-titulo{
+    padding: 24px 25%;
 }
 
 .PDulce-imagem{
