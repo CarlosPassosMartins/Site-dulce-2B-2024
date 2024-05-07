@@ -73,7 +73,7 @@ body {
 }
 
 #Prof-Dulce{
-    background-color: #e62424;
+    background-image: linear-gradient(#e62424, #db6622);
     color:white;
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@ body {
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 20% 10% 20% 25%;
 }
 
 .rodape{
