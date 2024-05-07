@@ -73,7 +73,7 @@ body {
 }
 
 #Prof-Dulce{
-    background-image: linear-gradient(#e62424, #d16b6b);
+    background-color:#e62424;
     color:white;
     display: flex;
     justify-content: center;
