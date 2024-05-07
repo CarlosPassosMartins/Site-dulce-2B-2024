@@ -119,7 +119,7 @@ body {
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: 25% 20% 10% 20% 25%;
+    grid-template-columns: 30% 20% 20% 30%;
 }
 
 .rodape{
