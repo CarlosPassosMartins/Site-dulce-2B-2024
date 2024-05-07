@@ -69,7 +69,7 @@ body {
 
 .PDulce-imagem{
     border-radius: 8%;
-    border: #8F0E0A;
+    border: solid(#8F0E0A);
     width: 20%;
     padding: 15px;
 }
