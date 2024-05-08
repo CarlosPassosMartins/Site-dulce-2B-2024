@@ -141,7 +141,7 @@ body {
 }
 
 .rodape-div-todos{
-    width: 5%;
+    width: 15px;
     display: flex;
     justify-content: space-around;
 }
