@@ -142,7 +142,7 @@ body {
 
 
 .rodape-div-item{
-    width: 5%;
-    margin: 15px;
-    border-radius: 50%;
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
 }
