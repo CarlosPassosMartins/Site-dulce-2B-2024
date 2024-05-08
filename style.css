@@ -34,7 +34,7 @@ body {
     border-radius: 8%;
     border: 5px solid #720b08;
     width: 35%;
-    padding: 15px;
+    margin: 15px;
 }
 
 #escola{
@@ -73,7 +73,7 @@ body {
     border-radius: 8%;
     border: 5px solid #720b08;
     width: 20%;
-    padding: 15px;
+    margin: 15px;
 }
 
 #Prof-Dulce{
