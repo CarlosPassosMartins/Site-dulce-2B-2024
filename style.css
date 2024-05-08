@@ -140,12 +140,12 @@ body {
     width: 50%;
 }
 .rodape-lista{
-    list-style: none;
+    list-style: noone;
 }
 
 .rodape-div-item{
     display: inline-block;
-    margin: 0 16px;
     font-size: 16px;
-    width: 5%;
+    width: 20%;
+    border-radius: 50%;
 }
