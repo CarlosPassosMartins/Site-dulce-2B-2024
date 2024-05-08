@@ -131,7 +131,7 @@ body {
     color: white;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -140,9 +140,6 @@ body {
     width: 50%;
 }
 
-.rodape-div-todos{
-
-}
 
 .rodape-div-item{
     width: 5%;
