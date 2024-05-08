@@ -139,7 +139,9 @@ body {
     padding: 6px 0;
     width: 50%;
 }
-
+.rodape-lista{
+    list-style: none;
+}
 
 .rodape-div-item{
     display: inline-block;
