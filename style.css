@@ -142,6 +142,8 @@ body {
 
 .rodape-div-todos{
     width: 5%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .rodape-div-iten{
