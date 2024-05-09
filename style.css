@@ -136,6 +136,7 @@ body {
 }
 
 .rodape-imagem{
+    margin: 15px;
     padding: 15px;
     width: 50%;
     border-right: 3px solid #fff;
