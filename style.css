@@ -30,7 +30,6 @@ body {
     color: white;
 }
 .cabecalho-lista-item a:hover{
-    text-decoration: underline;
     color: rgb(235, 11, 235);
 
 }
