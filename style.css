@@ -31,7 +31,7 @@ body {
 }
 .cabecalho-lista-item a:hover{
     text-decoration: underline;
-    color: purple;
+    color: rgb(235, 11, 235);
 
 }
 
