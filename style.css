@@ -29,6 +29,11 @@ body {
     text-decoration: none; 
     color: white;
 }
+.cabecalho-lista-item a:hover{
+    text-decoration: underline;
+
+}
+
 
 .escola-imagem{
     border-radius: 8%;
