@@ -151,3 +151,9 @@ body {
 .fofo{
     width: 25%;
 }
+li{
+    display: inline-block;
+    margin: 0 2px;
+    width: 28px;
+    height: 28px;
+}
