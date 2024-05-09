@@ -139,16 +139,12 @@ body {
     padding: 6px 0;
     width: 50%;
 }
-.rodape-lista{
-    list-style: noone;
+
+.rodape-div-redesS{
+    margin: 0 50px;
 }
 
-.rodape-div-item{
-    display: inline-block;
-    width: 20%;
-    border-radius: 50%;
-}
-.fofo{
+.rodape-redesS{
     display: inline-block;
     margin: 3px 2px;
     width: 28px;
