@@ -9,9 +9,14 @@ body {
     background-color: #8F0E0A;
     color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 5px 100px;
+}
+
+.cabecalho-titulo{
+    display: flex;
+    justify-content: center;
+
 }
 .cabecalho-div{
     display: flex;
