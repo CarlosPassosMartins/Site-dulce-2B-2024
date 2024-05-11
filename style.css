@@ -45,46 +45,38 @@ body {
 
 }
 
-        .imagem-container {
-            position: relative;
-            display: inline-block;
-        }
+.imagem-container {
+     position: relative;
+     display: inline-block;
+}
 
 
-        #imagem {
-            width: 400px;
-            border-radius: 8%;
-            border: 15px solid #720b08;
-            height: auto;
-        }
+#imagem {
+     width: 400px;
+     border-radius: 8%;
+     border: 15px solid #720b08;
+     height: auto;
+}
 
 
-        .botoes-container {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            text-align: center;
-        }
+.botoes-container {
+     position: absolute;
+     bottom: 0;
+    left: 0;
+    width: 100%;
+     text-align: center;
+}
 
-        .botoes-container button {
-            margin: 5px;
-        }
+.botoes-container button {
+    margin: 5px;
+}
 
-        .botoes-container button:first-child {
-            float: left;
-        }
+.botoes-container button:first-child {
+    float: left;
+}
 
-        .botoes-container button:last-child {
-            float: right;
-        }
-
-
-.escola-imagem{
-    border-radius: 8%;
-
-    width: 35%;
-    margin: 15px;
+.botoes-container button:last-child {
+    float: right;
 }
 
 #escola{
