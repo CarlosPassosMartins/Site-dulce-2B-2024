@@ -163,7 +163,7 @@ body {
 }
 
 .rodape-voutar a:hover{
-    text-decoration: line-through;
+    text-decoration: overline;
     color: rgb(192, 192, 192);
 }
 
