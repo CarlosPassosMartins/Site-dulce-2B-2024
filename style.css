@@ -53,7 +53,9 @@ body {
 
         /* Estilo para as imagens */
         #imagem {
-            width: 300px; /* Largura desejada */
+            width: 500px; /* Largura desejada */
+            border-radius: 8%;
+            border: 15px solid #720b08;
             height: auto; /* Altura automática para manter a proporção */
         }
 
@@ -81,7 +83,7 @@ body {
 
 .escola-imagem{
     border-radius: 8%;
-    border: 15px solid #720b08;
+
     width: 35%;
     margin: 15px;
 }
