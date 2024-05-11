@@ -35,42 +35,8 @@
             <p class="escola-texto-dois">Inicialmente, ela compartilhava espaço com a Escola Municipal 
             São Pedro, que atendia apenas à Educação Infantil e às Séries Iniciais do Ensino Fundamental.</p>
         </div>
-        <div class="imagem-container">
-            <img id="escola-imagem" src="/img/fachada.jpg" alt="Imagem escola">
-            <div class="botoes-container">
-                <button onclick="trocarImagem(-1)">&#9664;</button>
-                <button onclick="trocarImagem(1)">&#9654;</button>
-            </div>
-        </div>
-    
-        <script>
-            var imagens = ["/img/fachada.jpg", "2.jpg", "3.jpg", "4.jpg"]; // Array com os nomes das imagens
-            var indiceAtual = 0; // Índice da imagem atual
-    
-            function trocarImagem(delta) {
-                // Atualiza o índice somando o delta
-                indiceAtual = (indiceAtual + delta + imagens.length) % imagens.length;
-    
-                // Obtém o elemento de imagem e atualiza seu atributo src para a nova imagem
-                var imagemElement = document.getElementById("escola-imagem");
-                imagemElement.src = imagens[indiceAtual];
-            }
-        </script>
-        <script>
-            var imagens = ["1.jpg", "2.jpg", "3.jpg", "4.jpg","5.jpg"]; // Array com os nomes das imagens
-            var indiceAtual = 0; // Índice da imagem atual
-    
-            function trocarImagem(delta) {
-                // Atualiza o índice somando o delta
-                indiceAtual = (indiceAtual + delta + imagens.length) % imagens.length;
-    
-                // Obtém o elemento de imagem e atualiza seu atributo src para a nova imagem
-                var imagemElement = document.getElementById("imagem");
-                imagemElement.src = imagens[indiceAtual];
-            }
-        </script>
+        <img class="escola-imagem" src="/img/fachada.jpg" alt="imagem da fachada da escola Dulce Maschio">
     </section>
-
     <section id="Map">
         <h1 class="map-titulo">Localização</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.34577719015252!2d-51.49500085785092!3d-25.35346618789378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef37e5c918ba0f%3A0xd243d058c7e7c843!2sDulce%20Maschio%2C%20C%20E%20Profa-Ef%20M!5e0!3m2!1spt-BR!2sbr!4v1714724531534!5m2!1spt-BR!2sbr" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

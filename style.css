@@ -45,36 +45,11 @@ body {
 
 }
 
-.imagem-container {
-    position: relative;
-    display: inline-block;
-}
 
-.botoes-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.botoes-container button {
-    margin: 5px;
-}
-
-.botoes-container button:first-child {
-    float: left; /* Alinha o primeiro botão à esquerda */
-}
-
-.botoes-container button:last-child {
-    float: right; /* Alinha o último botão à direita */
-}
-
-#escola-imagem{
+.escola-imagem{
     border-radius: 8%;
     border: 15px solid #720b08;
-    width: 500px;
-    height: auto;
+    width: 35%;
     margin: 15px;
 }
 
