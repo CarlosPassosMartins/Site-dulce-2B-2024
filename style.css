@@ -9,18 +9,19 @@ body {
     background-color: #8F0E0A;
     color: white;
     display: flex;
-    align-items: center;
     padding: 5px 100px;
+    flex-direction: column;
 }
 
 .cabecalho-titulo{
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 .cabecalho-div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho-imagem{
