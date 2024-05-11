@@ -60,15 +60,16 @@ body {
 
 
 .botoes-container {
-     position: absolute;
-     bottom: 0;
+    position: absolute;
+    bottom: 0;
     left: 0;
-    width: 90%;
-     text-align: center;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
 }
 
 .botoes-container button {
-    margin: 5px;
+    margin: 17px;
 }
 
 .botoes-container button:first-child {
