@@ -161,6 +161,18 @@ body {
     margin: 0 50px;
 }
 
+.rodape-voutar a:hover{
+    color: red;
+}
+
+.rodape-voutar a{
+    text-decoration: none;
+}
+
+.rodape-voutar{
+    color: white;
+}
+
 .rodape-redesS{
     display: inline-block;
     margin: 0px 8px;
