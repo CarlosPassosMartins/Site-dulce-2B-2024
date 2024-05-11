@@ -44,14 +44,13 @@
         </div>
     
         <script>
-            var imagens = ["/img/2.jpg", "/img/3.jpg", "/img/4.jpg"]; // Array com os nomes das imagens
-            var indiceAtual = 0; // Índice da imagem atual
+            var imagens = ["/img/fachada.jpg", "/img/2.jpg", "/img/3.jpg", "/img/4.jpg"]; 
+            var indiceAtual = 0; 
     
             function trocarImagem(delta) {
-                // Atualiza o índice somando o delta
+            
                 indiceAtual = (indiceAtual + delta + imagens.length) % imagens.length;
     
-                // Obtém o elemento de imagem e atualiza seu atributo src para a nova imagem
                 var imagemElement = document.getElementById("imagem");
                 imagemElement.src = imagens[indiceAtual];
             }
