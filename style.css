@@ -45,6 +45,39 @@ body {
 
 }
 
+        /* Estilo para o contêiner */
+        .imagem-container {
+            position: relative; /* Para que possamos posicionar os botões relativos a este contêiner */
+            display: inline-block; /* Para que o contêiner não ocupe toda a largura disponível */
+        }
+
+        /* Estilo para as imagens */
+        #imagem {
+            width: 300px; /* Largura desejada */
+            height: auto; /* Altura automática para manter a proporção */
+        }
+
+        /* Estilo para os botões */
+        .botoes-container {
+            position: absolute; /* Para que possamos posicionar os botões absolutamente dentro do contêiner */
+            bottom: 0; /* Coloca os botões na parte inferior do contêiner */
+            left: 0; /* Coloca os botões à esquerda do contêiner */
+            width: 100%; /* Faz com que os botões ocupem toda a largura do contêiner */
+            text-align: center; /* Centraliza os botões horizontalmente */
+        }
+
+        .botoes-container button {
+            margin: 5px; /* Espaçamento entre os botões */
+        }
+
+        .botoes-container button:first-child {
+            float: left; /* Alinha o primeiro botão à esquerda */
+        }
+
+        .botoes-container button:last-child {
+            float: right; /* Alinha o último botão à direita */
+        }
+
 
 .escola-imagem{
     border-radius: 8%;

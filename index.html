@@ -35,7 +35,27 @@
             <p class="escola-texto-dois">Inicialmente, ela compartilhava espaço com a Escola Municipal 
             São Pedro, que atendia apenas à Educação Infantil e às Séries Iniciais do Ensino Fundamental.</p>
         </div>
-        <img class="escola-imagem" src="/img/fachada.jpg" alt="imagem da fachada da escola Dulce Maschio">
+        <div class="imagem-container">
+            <img id="imagem" src="/img/fachada.jpg" alt="Imagem escola">
+            <div class="botoes-container">
+                <button onclick="trocarImagem(-1)">&#9664;</button>
+                <button onclick="trocarImagem(1)">&#9654;</button>
+            </div>
+        </div>
+    
+        <script>
+            var imagens = ["/img/2.jpg", "/img/3.jpg", "/img/4.jpg"]; // Array com os nomes das imagens
+            var indiceAtual = 0; // Índice da imagem atual
+    
+            function trocarImagem(delta) {
+                // Atualiza o índice somando o delta
+                indiceAtual = (indiceAtual + delta + imagens.length) % imagens.length;
+    
+                // Obtém o elemento de imagem e atualiza seu atributo src para a nova imagem
+                var imagemElement = document.getElementById("imagem");
+                imagemElement.src = imagens[indiceAtual];
+            }
+        </script>
     </section>
     <section id="Map">
         <h1 class="map-titulo">Localização</h1>
